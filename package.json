@@ -1,0 +1,24 @@
+{
+  "name": "pverify-cancel-transaction",
+  "version": "1.0.2",
+  "description": "Cancel Transaction App for pVerify.com.",
+  "repository": "",
+  "homepage": "https://pverify.com/",
+  "author": "Logan Pratico <logan@pverify.com>",
+  "license": "BSD-3-Clause",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --recursive"
+  },
+  "engines": {
+    "node": "8.10.0",
+    "npm": ">=5.6.0"
+  },
+  "dependencies": {
+    "zapier-platform-core": "7.6.0"
+  },
+  "devDependencies": {
+    "mocha": "^5.2.0",
+    "should": "^13.2.0"
+  }
+}
